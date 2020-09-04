@@ -9,7 +9,18 @@ namespace HelloWorld_console
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Was is uw naam?");
+
+            string ingevuld = Console.ReadLine();
+            Console.WriteLine($"Hallo {ingevuld}" );
+
+            Console.ReadLine();
         }
+
+       
+        
+        
     }
 }
